@@ -4,10 +4,12 @@ status = 'pending'
 context = 'icons'
 
 //random cleanup should go someplace
-setTimeout(function() {$('#simplemodal-container').remove()}, 1500)
-setTimeout(function() {$('#simplemodal-overlay').remove()}, 1500)
+//setTimeout(function() {$('#simplemodal-container').remove()}, 1500)
+//setTimeout(function() {$('#simplemodal-overlay').remove()}, 1500)
 
-$('<footer id="footer123" style="position: absolute; left: 0; bottom: 0; width: 100%; height: 230px; z-index: 3; background-color: #ED1820; position: fixed;"><img id="activeimage123" src="/pone.com/images/33572f85.png"></img><div id="icons" class="context context-active" style="float: right; width: 50px; height: 50px">icons</div></footer>').appendTo('.content-info'); 
+$('<div id="footer123" style="position: absolute; left: 0; bottom: 0; width: 100%; height: 230px; z-index: 3; background-color: #ED1820; position: fixed;"><img id="activeimage123" src="/pone.com/images/33572f85.png"></img><div id="icons" class="context context-active" style="float: right; width: 50px; height: 50px">icons</div></div>').appendTo('.content-info'); 
+
+console.log('yoyoyo123')
 
 /*
 	jQuery-GetPath v0.01, by Dave Cardwell. (2007-04-27)
